@@ -1,6 +1,3 @@
-Easiest possible matrix multiplication algorithm langauge benchmark
-===
-
 # Java
 
 Java version:
