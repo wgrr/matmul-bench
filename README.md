@@ -1,7 +1,7 @@
-Easiest matrix multiplication algorithm langauge benchmark
+Easiest possible matrix multiplication algorithm langauge benchmark
 ===
 
-# java
+# Java
 
 Java version:
 ```sh
@@ -13,6 +13,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 14.0.1+7, mixed mode, sharing)
 
 ```sh
 java java/MatrixMul.java > /dev/null
+time: 1514.032521924 (seconds)
 ```
 
 ---
