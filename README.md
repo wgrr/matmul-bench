@@ -32,6 +32,34 @@ time: 60.000076294 (seconds)
 ```
 
 ---
+# Go
+
+GCC version:
+```sh
+pampas% gccgo-10 (Ubuntu 10-20200416-0ubuntu1~18.04) 10.0.1 20200416 (experimental) [master revision 3c3f12e2a76:dcee354ce56:44b326839d864fc10c459916abcc97f35a9ac3de]
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+```sh
+gccgo-10 -Ofast -ffast-math -mtune=native -march=native -o matrix matrix.go
+pampas% gccgo-10 -Ofast -ffast-math -mtune=native -march=native -o matrix go/matrix.go
+pampas% ./matrix > /dev/null
+time: 61.321915896
+```
+
+GC version:
+```sh
+pampas% go -version
+go version go1.14.2 linux/amd64
+```
+
+```sh
+pampas% go run go/matrix.go
+time: 976.713880355
+```
+---
 
 # CPU info:
 
